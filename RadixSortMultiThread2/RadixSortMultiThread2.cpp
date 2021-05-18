@@ -32,7 +32,7 @@ int main() {
 	for (int i = 0; i < MAX; i++) {
 		numbers1[i] = numbers2[i] = rand() * rand() + rand();
 	}
-
+	// test
 	end = clock();
 	cout << "생성된 숫자 갯수 : " << MAX << "\n"
 		<<"숫자 생성 시간 : " << end - start << "ms\n";
