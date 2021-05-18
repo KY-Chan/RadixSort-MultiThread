@@ -38,13 +38,6 @@ int main() {
 		<<"숫자 생성 시간 : " << end - start << "ms\n";
 
 
-	/*cout << "------------------------------------------\n";
-
-	start = clock();
-	sort(numbers0, numbers0 + MAX);
-	end = clock();
-	cout << "퀵소트 소모 시간 : " << end - start << "ms\n";*/
-
 	cout << "------------------------------------------\n";
 	start = clock();
 	rSort2(numbers1, MAX);
